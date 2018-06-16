@@ -1,0 +1,1 @@
+python freeze.py --sample_rate=16000 --dct_coefficient_count=10 --window_size_ms=40 --window_stride_ms=20 --model_architecture=cnn --checkpoint=work/CNN/CNN2/training/best/cnn_2974.ckpt-30 --output_file=my_test.pb --model_size_info 64 10 4 1 1 48 10 4 2 1 16 128
